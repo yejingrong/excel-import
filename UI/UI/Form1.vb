@@ -13,7 +13,7 @@
     Public Function importfromExcel() As Boolean
         Dim e As New exceledit
         Try
-            e.open("E:\googleDownloads\贺州水厂供水数据.xls")
+            e.open("E:\****.xls")
             MsgBox(e.worksheet(8, "B").ToString)
             Dim totalnum As Integer = e.getNumofRows(1)
             Dim i As Integer = 8
